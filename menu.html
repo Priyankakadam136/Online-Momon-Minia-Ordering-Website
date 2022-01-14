@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOMOS MINIA</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS -->
+	 <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="styleme.css"/>
+<link rel="stylesheet" type="text/css" href="style3.css">
+<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.gallery{
+	padding: 50px 0px;
+	
+	
+	z-index: -1;
+	
+
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-size: cover;
+}
+.gallery .section-title{
+	position: relative;
+	margin: 30px 0px;
+	width: 100%;
+	top: 0;
+	z-index: -1;
+}
+.gallery .section-title p{
+	 
+	 color: #D0F8FF;
+	 font-size: 70px;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+       position: relative;
+       z-index: -1;
+             
+}
+
+
+}
+.gallery .section-title{
+	color: #ff0000;
+}
+.custom_pd{
+	padding: 20px;
+}
+.hovereffect{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	cursor:pointer;
+}
+.hovereffect .overlay{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     overflow-x: hidden;
+     top: 0;
+     left: 0;
+     background-color: rgba(0,0,0,0.5);
+     opacity: 1;
+     filter: alpha(opacity=0);
+     transform: translate(460px, -100px) rotate(180deg);
+     transition: 0.4s ease-in-out;
+}
+.hovereffect img
+{
+	display: block;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	z-index: -1;
+}
+.hovereffect h2
+{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+.hovereffect a.info{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+	transform: translateY(-200px);
+	transition: 0.2s ease-in-out;
+}
+.hovereffect a.info:hover{
+	box-shadow: 0 0 5px #fff;
+
+}
+.hovereffect:hover .overlay{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	transition-delay: 0s;
+	transform: translate(0px, 0px);
+}
+.hovereffect:hover h2{
+	transform: translateY(0px);
+	transition-delay: 0.5s;
+}
+.hovereffect:hover a.info {
+	transform: translateY(0px);
+	transition-delay: 0.3s;
+}
+
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+	 <div class="header">
+    
+     <h3>ONLINE MOMOS ORDER</h3>
+    
+  </div>
+	 
+	<div class="menu">
+		
+    
+        <a href="home4.html">Home</a>
+      
+        <a href="login.php">Login</a>
+     
+      
+        <a  href="aboutus.html">About Us</a>
+     
+        <a  href="menu.html">Menu</a>
+     
+        <a  href="m.html">Order</a>
+     
+        <a  href="contactus.php">Contact Us</a>
+     
+        <a href="cart.php"><i class="fas fa-shopping-cart"></i><span id="cart-item" class="badge badge-danger"></a>
+    </div>    	
+	<section class="gallery">
+		<div class="container">
+			<div class="row">
+	           <div class="section-title text-center">
+	          <p>Welcome to MOMOS MINIA</p>
+	           	   <h3>View Details Of Menu by Clicking above....</h3>
+	           </div>
+
+	           <div class="col-md-4 col-sm-12 col-12 ">
+	               
+	              <div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/v.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           		   <a class="info" href="images1/VEG.png" 
+  target="popup" 
+  onclick="window.open('images1/VEG.png','popup','width=600,height=600'); return false;">
+    Veg Momos
+</a>
+	           		  
+	           	     </div>  
+
+	           	   </div>   
+               </div>
+               <br>
+               <br>
+                <div class="col-md-4 col-sm-12 col-12">
+	            	<div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/momo.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           		  <a class="info" href="images1/nonveg.png" 
+  target="popup" 
+  onclick="window.open('images1/nonveg.png','popup','width=600,height=600'); return false;">
+    Non-Veg Momos
+</a>
+	           		 </div>  
+
+	           	    </div>   
+               </div>
+                <div class="col-md-4 col-sm-12 col-12">
+	            	<div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/m1.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           			<a class="info" href="images1/S.png"  target="popup" 
+  onclick="window.open('images1/S.png','popup','width=600,height=600'); return false;">
+   Special Momos
+</a>
+	           		    
+	           		 </div>  
+
+	           	    </div>   
+               </div>
+                <div class="col-md-4 col-sm-12 col-12 custom_pd">
+	            	<div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/wc.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           			<a class="info" href="images1/wow.png" target="popup" 
+  onclick="window.open('images1/wow.png','popup','width=600,height=600'); return false;">
+    WOW!Combo Momos
+</a>
+	           		   
+	           		 </div>  
+
+	           	    </div>   
+               </div>
+                <div class="col-md-4 col-sm-12 col-12 custom_pd">
+	            	<div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/dd.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           		   <a class="info" href="images1/DE.png" target="popup" 
+  onclick="window.open('images1/DE.png','popup','width=600,height=600'); return false;">
+    Dessert Momos
+</a>
+	           		 </div>  
+
+	           	    </div>   
+               </div>
+                <div class="col-md-4 col-sm-12 col-12 custom_pd">
+	            	<div class="hovereffect">
+	           		 <img class="img-fluid" src="images1/t.jpg">
+	           		 <div class="overlay">
+	           			<h2>MOMOS MINIA</h2>
+	           			<a class="info" href="images1/Untitlrd.png" target="popup" 
+  onclick="window.open('images1/Untitled.png','popup','width=600,height=600'); return false;">
+    Thupka Momos
+</a>
+	           		   
+	           		 </div>  
+
+	           	    </div>   
+               </div>
+	        </div>
+	    </div>       
+	</section>
+ <footer class="flex-rw">
+  
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">About Momos Minia</h4></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">We will Provide You the best Momos and Service!!</a></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">VISIT OUR SHOP!!</a></li>
+
+   
+
+    <li><a href='m.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WE ALSO TAKE ONLINE ORDER!</a></li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">The Event Selection</h4></li>
+
+
+    <li><a href='#' class="generic-anchor footer-list-anchor">We Will Offer You a reasonable Prices for the events..</a></li>
+    <li><a href='#' class="generic-anchor footer-list-anchor">Any FUNCTIONS</a></li>
+    <li><a href='#' class="generic-anchor footer-list-anchor">Birthdays</a></li>
+    
+  </ul>
+  <ul class="footer-list-top">
+    <li id='help'>
+      <h4 class="footer-list-header">Any Help??</h4></li>
+    <li><a href='contactus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT US</a></li>
+    <li><a href='contactus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">Give your feedback through contacting us and drop down your message ...!!</a></li>
+   
+  </ul>
+  <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+      CONNECT <span class="footer-social-small">with</span> US
+      </span>
+       <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="https://www.pinterest.com/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fab fa-pinterest-p"></i></a>
+       <a href="https://aboutme.google.com/u/0/?referer=gplus"class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fab fa-google-plus-g"></i></a>
+      <a href="https://www.facebook.com/" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
+      
+     
+      </span>
+  </section>
+  <section class="footer-bottom-section flex-rw">
+<div class="footer-bottom-wrapper">   
+<i class="fa fa-copyright" role="copyright">
+ 
+</i> 2020 MomosMinia.com<address class="footer-address" role="company address">Thane</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+    </div>
+    <div class="footer-bottom-wrapper">
+    <a href="#" class="generic-anchor" rel="nofollow">@Terms and conditions applied</a> 
+      </div>
+  </section>
+</footer>
+ <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

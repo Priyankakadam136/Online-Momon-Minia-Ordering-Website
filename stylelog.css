@@ -1,0 +1,62 @@
+
+.container{
+     width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+}
+.form-group p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.form-group input{
+    width: 100%;
+    margin-bottom: 20px;
+    content:"\f007";
+}
+.form-control input{
+    color: #000000;
+}
+
+.form-group input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+ .form-group input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.form-group input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.form-group a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.form-group a:hover
+{
+    color: #ffc107;
+}

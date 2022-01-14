@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style3.css">
+ 
+	<title>MOMOS MINIA</title>
+	<style>
+		body{
+
+         	font-family: 'Lato', sans-serif;
+         	background: linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+         }
+		h1{
+			 color: #D0F8FF;
+	 font-size: 50px;
+	 text-align: center;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+		}	
+		h2{text-align: center;line-height: 45px}
+		
+	
+		.box{
+			border: 2px solid #000;
+			width: 400px;
+			margin:10px auto;
+
+			position: relative;
+			overflow: hidden;
+		}
+		.box img{
+			width: 100%;
+			height: auto;
+
+		}
+		.content{
+			color: #fff;
+			background: rgba(0,0,0,0.8);
+			position: absolute;
+			top: 0%;
+			left: 100%;
+			width: 100%;
+			height: 100%;
+			padding: 20px;
+			box-sizing: border-box;
+			transition: all 0.5s;
+        }
+		.box:hover .content {
+			left:0;
+
+		}
+		.content p:cart{
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+			padding: 20px 0;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<div class="menu">
+		
+    
+        <a href="home4.html">Home</a>
+      
+        <a href="login.php">Login</a>
+     
+      
+        <a  href="aboutus.html">About Us</a>
+     
+        <a  href="menu.html">Menu</a>
+     
+        <a  href="m.html">Order</a>
+     
+        <a  href="contactus.php">Contact Us</a>
+     
+        <a href="cart.php"><i class="fas fa-shopping-cart"></i><span id="cart-item" class="badge badge-danger"></a>
+        </div>
+<br>
+<br>
+
+	<h1>Welcome to MOMOS MINIA</h1>
+
+	<h2>Click to Order Your Favourite NON-VEG MOMOS from below!!</h2>
+
+	<div class="box">
+		<img src="images1/stnonmenu.jpg" alt="steamed chicken momos">
+		<div class="content">
+			<h3>Non-Veg Steamed Momos</h3>
+			<p>Steamed Momos with their needed ingredients and also red chutney which is made of redchillies and white chutney which is made of dahi and spices..Quantity=4pcs(half) 8pcs(full)</p>
+            <a href="nonveg.php">Click to Order</a>
+
+		</div>
+		
+	</div>
+	<div class="box">
+		
+		<img src="images1/veg1.png" alt="fried chicken momos">
+		<div class="content">
+			<h3>Non-Veg Fried Momos</h3>
+			<p class="cart">Fried Momos with their needed ingredients and also red chutney which is made of redchillies and white chutney which is made of dahi and spices..Quantity=4pcs(half) 8pcs(full)</p>
+            <a href="nonveg1.php">Click to Order</a>
+
+		</div>
+	
+		
+	</div>
+	
+</body>
+</html>

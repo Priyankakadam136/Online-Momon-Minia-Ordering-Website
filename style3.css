@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.header{
+	background:rgba(0,0,0,0.9);
+	padding: 6px 24px;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	letter-spacing: 5px;
+	font: caption;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+  .logo img{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 60px;
+	text-align: left;
+	float: left;
+	width: 50px;
+    height: 40px;
+}
+.menu{
+	position: sticky;
+	top:0px;
+	background-color: black;
+	margin: 0px;
+	overflow: hidden;
+
+}
+.menu a{
+	font: menu;
+	text-decoration: none;
+	font-size: 24px;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+    margin-left: 12px;
+	float: left;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 65px;
+	
+
+}
+.menu a:hover{
+	background:#ff9f12;
+	color: black;
+
+}
+.image-container{
+	position: relative;
+	z-index: -1;
+	top: 0px;
+}
+
+.image-container .image{
+	background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0)),url(images1/h.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 84vh;
+	width: 100%;
+}
+
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.main-content-header{
+	width: 1180px;
+	padding:0 2%;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+h1{
+	color: #fff;
+	font-size: 300%;  
+	word-spacing: 5px;
+	letter-spacing: 6px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.colorchange{
+	animation:  colorchangetechnic 1s infinite;
+}
+
+@keyframes colorchangetechnic{
+	0%{color: red;}
+	25%{color:#bf55ec; }
+	50%{ color: white; }
+	100%{ color:#bf55ec;  }
+}
+
+.mobile-icon{display: none;}
+
+
+/*//////// Responsive queries //////////*/
+
+@media only screen and (max-width: 1180px){
+	.main-content-header{
+		width:100%;
+		padding:0 2%;
+	}
+
+	.row{
+		width:100%;
+		padding:0 2%;
+	}
+}
+
+@media only screen and (max-width: 998px){
+	h1{font-size: 220%;}
+}
+
+@media only screen and (max-width: 768px){
+	h1{font-size: 200%;}	
+
+	.main-nav{display: none;}
+
+	.mobile-icon{ display: inline-block; 
+		color: #fff;
+		float: right;
+		margin-top: 30px;
+		margin-right: 20px;
+	}
+
+	.main-nav{float: left;}
+
+	.main-nav li{
+		display: block;
+		margin-top: 10px;
+	}
+}
+

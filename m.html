@@ -1,0 +1,352 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+ <link rel="stylesheet" type="text/css" href="style3.css">
+ 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+ 
+  
+   
+    <link rel="stylesheet" href="styleme.css">
+   
+</style>
+<style type="text/css">
+ /* CSS Document */
+body{
+          font-family: 'Lato', sans-serif;
+          background: linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+
+         }
+p{         
+
+color: #D0F8FF;
+   font-size: 50px;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+            
+         }
+ 
+  
+.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+.gallery-block.cards-gallery h6{font-size: 17px; font-weight: bold;text-align: center;}
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;text-align: center;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+    
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+     
+  }
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header{
+  background:rgba(0,0,0,0.9);
+  padding: 6px 24px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  letter-spacing: 5px;
+  font: caption;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+  .logo img{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 60px;
+  text-align: left;
+  float: left;
+  width: 50px;
+    height: 40px;
+}
+.sticky-top {
+  position: sticky;
+  top:0px;
+  background-color: black;
+  margin: 0px;
+  overflow: hidden;
+   
+}
+.sticky-top a{
+font: menu;
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+   
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 65px;
+
+
+}
+.sticky-top a:hover{
+  background:#ff9f12;
+  color: black;
+
+}
+.image-container{
+  position: relative;
+  z-index: -1;
+  top: 0px;
+}
+
+.image-container .image{
+  background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0)),url(images1/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 84vh;
+  width: 100%;
+}
+
+
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+
+.main-content-header{
+  width: 1180px;
+  padding:0 2%;
+  position: absolute;
+  /*border: 1px solid red;*/
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+h1{
+  color: #fff;
+  font-size: 300%;  
+  word-spacing: 5px;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+</style>
+   
+
+    <title>MOMOS MINIA</title>
+    
+  </head>
+  <body>
+     <div class="header">
+    
+     <h3>ONLINE MOMOS ORDER</h3>
+    
+  </div>  
+
+    
+    <nav class="navbar sticky-top navbar-light bg-faded">
+      
+        <a href="home4.html">Home</a>
+      
+        <a href="login.php">Login</a>
+     
+      
+        <a  href="aboutus.html">About Us</a>
+     
+        <a  href="menu.html">Menu</a>
+     
+        <a  href="m.html">Order</a>
+     
+        <a  href="contactus.php">Contact Us</a>
+     
+        <a href="cart.php"><i class="fas fa-shopping-cart"></i><span id="cart-item" class="badge badge-danger"></a>
+          
+   
+  </nav>
+
+ 
+   <section class="gallery-block cards-gallery">
+    <div class="container">
+      <div class="heading">
+        <p>WELCOME TO MOMOS MINIA</p>
+        <h3>Click to Order Your Favourite Momos From Below!!</h3>
+      </div>
+     <div class="position-sticky"> 
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+
+          <div class="card border-0 transform-on-hover">
+            <a  href="veg1.html"><img src="images1/v.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Veg Momos</h6>
+              <p class="text-muted card-text">We Have both Steamed and Fried Veg Momos with half and full Quantity along with red chutney and white sauce </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 transform-on-hover">
+            <a href="nonveg11.html"><img src="images1/momo.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Non-Veg Momos</h6>
+              <p class="text-muted card-text">We Have both Steamed and Fried Non-Veg Momos with half and full Quantity along with red chutney and white sauce </p>
+           
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 transform-on-hover">
+            <a href="special.php"><img src="images1/m1.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Special</h6>
+              <p class="text-muted card-text">Here it is special momos with some extra ingredients and with white and red chutney..Unique Momos!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 transform-on-hover">
+            <a href="combo.php"><img src="images1/wc.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Wow Combo!!</h6>
+              <p class="text-muted card-text">We will serve you a combo variety like colddrink,burger or you will also get some special momos of your choice!!</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 transform-on-hover">
+            <a href="dessert.php"><img src="images1/dd.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Dessert Momos</h6>
+              <p class="text-muted card-text">Chocolate momos bring together the best of all the worlds of food that you love. And what better treat could there be...?</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 transform-on-hover">
+            <a href="thupka.php"><img src="images1/t.jpg" class="card-img-top"></a>
+            <div class="card-body">
+              <h6>Thupka</h6>
+              <p class="text-muted card-text">Thukpa is a noodle soup with momos.This is a whole some soup and the combo of Momos with Thukpa completes a meal.Special Treat!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+ </div>
+</div>
+</div>
+   <footer class="flex-rw">
+  
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">About Momos Minia</h4></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">We will Provide You the best Momos and Service!!</a></li>
+    <li><a href='aboutus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">VISIT OUR SHOP!!</a></li>
+
+   
+
+    <li><a href='m.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WE ALSO TAKE ONLINE ORDER!</a></li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">The Event Selection</h4></li>
+
+
+    <li><a href='#' class="generic-anchor footer-list-anchor">We Will Offer You a reasonable Prices for the events..</a></li>
+    <li><a href='#' class="generic-anchor footer-list-anchor">Any FUNCTIONS</a></li>
+    <li><a href='#' class="generic-anchor footer-list-anchor">Birthdays</a></li>
+    
+  </ul>
+  <ul class="footer-list-top">
+    <li id='help'>
+      <h4 class="footer-list-header">Any Help??</h4></li>
+    <li><a href='contactus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT US</a></li>
+    <li><a href='contactus.php' class="generic-anchor footer-list-anchor" itemprop="significantLink">Give your feedback through contacting us and drop down your message ...!!</a></li>
+   
+  </ul>
+  <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+      CONNECT <span class="footer-social-small">with</span> US
+      </span>
+      < <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="https://www.pinterest.com/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fab fa-pinterest-p"></i></a>
+       <a href="https://aboutme.google.com/u/0/?referer=gplus"class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fab fa-google-plus-g"></i></a>
+      <a href="https://www.facebook.com/" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
+      
+      
+     
+      </span>
+  </section>
+  <section class="footer-bottom-section flex-rw">
+<div class="footer-bottom-wrapper">   
+<i class="fa fa-copyright" role="copyright">
+ 
+</i> 2020 MomosMinia.com<address class="footer-address" role="company address">Thane</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+    </div>
+    <div class="footer-bottom-wrapper">
+    <a href="#" class="generic-anchor" rel="nofollow">@Terms and conditions applied</a> 
+      </div>
+  </section>
+</footer>
+
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
